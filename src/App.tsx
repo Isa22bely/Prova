@@ -1,4 +1,4 @@
-import { ComponentFooter, ComponentHeader } from "./components";
+import { ComponentHeader } from "./components";
 import { PageHome, PageList } from "./pages";
 import { GlobalStyle, Main } from "./styles/GlobalStyle";
 import { Dispatch, SetStateAction, useState } from "react";
@@ -27,7 +27,7 @@ export function App() {
       <Main>
         {component}
       </Main>
-      <ComponentFooter />
+     
     </>
   )
 }

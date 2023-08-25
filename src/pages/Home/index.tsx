@@ -1,12 +1,17 @@
 import * as S from './styles'
-import TruckLeft from "../../assets/truckleft.png"
-import TruckRight from "../../assets/truckright.png"
+import { dados } from "../../services/dados1"
+import { ComponentCard } from '../../components'
+
 
 export function Home() {
   return (
     <S.Section>
-      <img src={TruckLeft} alt="Caminhão na esquerda" />
-      <img src={TruckRight} alt="Caminhão na direita" />
+      {dados.map(item => (
+        <ComponentCard
+          titulo={item.titulo}
+         
+        />
+      ))}
     </S.Section>
   )
 }

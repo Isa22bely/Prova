@@ -1,14 +1,13 @@
 import * as S from "./styles"
-import Logo from "../../assets/truck.svg"
 import { IPage } from "../../App"
 
 export function Header({ setPage }: IPage) {
   return (
     <S.Header>
-      <picture>
-        <img src={Logo} alt="Logo" />
-      </picture>
-      <S.NavBar>
+     <h2>
+      Inovando na Tecnologia
+     </h2>
+     <S.NavBar>
         <ul>
           <li>
             <a href="#" onClick={() => setPage(1)}>Página Inicial</a>
@@ -18,6 +17,7 @@ export function Header({ setPage }: IPage) {
           </li>
         </ul>
       </S.NavBar>
+      
     </S.Header>
   )
 }

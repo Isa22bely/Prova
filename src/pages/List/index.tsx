@@ -7,10 +7,8 @@ export function List() {
     <S.Section>
       {dados.map(item => (
         <ComponentCard
-          key={item.id}
-          data={item.data}
-          mensagem={item.mensagem}
           titulo={item.titulo}
+          mensagem={item.mensagem}
         />
       ))}
     </S.Section>

@@ -1,32 +1,19 @@
 export const dados = [
   {
-    id: 1,
-    data: "23/06/2023 07:00:00",
-    titulo: "Aula",
-    mensagem: "Componentes"
+    titulo:"Artigo sobre Inovação Tecnológica:",
+    mensagem:" 'As Promissoras Tendências de Tecnologia para o Próximo Ano: De veículos autônomos a realidade aumentada, exploramos as tecnologias que estão moldando o futuro. Descubra como essas tendências podem impactar várias indústrias.' "
   },
   {
-    id: 2,
-    data: "23/06/2023 07:10:00",
-    titulo: "Aula Web",
-    mensagem: "Serviços"
+    titulo: "Notícia de Atualização de Software:",
+    mensagem: " 'Sistema Operacional X Recebe Atualização com Novos Recursos: A versão mais recente do Sistema Operacional X está sendo lançada, trazendo melhorias na interface do usuário, maior desempenho e recursos de privacidade aprimorados. Saiba como aproveitar ao máximo essa atualização.'"
   },
   {
-    id: 3,
-    data: "23/06/2023 07:20:00",
-    titulo: "Aula React",
-    mensagem: "Rotas"
+    titulo: "Review de Laptop:",
+    mensagem: " 'Review do Laptop Y: Testamos o Laptop Y em termos de desempenho, duração da bateria e portabilidade. Se você está procurando um laptop para trabalho ou entretenimento, descubra se o Laptop Y é a escolha certa.' "
   },
   {
-    id: 4,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
-  },
-  {
-    id: 5,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
-  },
+    titulo: "Artigo sobre Internet das Coisas (IoT):",
+    mensagem: " 'A Era da Internet das Coisas: Como os Dispositivos Conectados Estão Transformando Nossas Vidas: Explore como os dispositivos IoT, desde geladeiras inteligentes até termostatos conectados, estão criando um  ecossistema interconectado e quais desafios isso apresenta' "
+  }
+ 
 ]

@@ -3,16 +3,12 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.third};
+  background-color: ${colors.menu1};
+  text-color:${colors.titulo};
+  border-bottom: 0.4rem solid ${colors.menu1};
   display: flex;
   height: 6rem;
-  picture {
-    margin-left: 0.5rem;
-    padding: 0.5rem;
-    img {
-      height: 100%;
-    }
-  }
+  
 `
 
 export const NavBar = styled.nav`
@@ -37,7 +33,7 @@ export const NavBar = styled.nav`
       }
     }
     li:hover {
-      background-color: ${colors.secondaryLight};
+      background-color: ${colors.menu2};
     }
   }
 
